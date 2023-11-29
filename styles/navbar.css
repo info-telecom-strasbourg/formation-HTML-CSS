@@ -1,0 +1,40 @@
+nav {
+  position: fixed;
+  height: 84px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--border-secondary);
+  padding-inline: 80px;
+  z-index: 10;
+}
+
+nav span {
+  color: var(--text-secondary);
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#nav-links-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--text-primary-gray);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}

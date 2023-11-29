@@ -3,8 +3,211 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Le blog de rama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Sail&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7f977830a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Le blog de Rama</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <span>Le blog de Rama</span>
+      <div id="nav-links-container">
+        <a href="#home">Accueil</a>
+        <a href="#biography">Biographie</a>
+        <a href="#events">Événements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section id="home">
+      <div id="home-left-container">
+        <div id="home-text-container">
+          <h2>Bienvenue sur mon blog !</h2>
+          <p>
+            Bonjour, je suis Rama Piotto, responsable charismatique du Centre de
+            Langues du Pôle API. Vous trouverez ici toutes les informations que
+            vous voulez sur moi.
+          </p>
+          <div id="home-links-container">
+            <button class="social-network-btn">
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="social-network-btn">
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button class="social-network-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </button>
+          </div>
+        </div>
+        <a href="#biography">
+          <button>Découvrir mon blog</button>
+        </a>
+      </div>
+      <div id="home-image-container">
+        <img src="public/images/Rama.jpg" alt="My photo" />
+        <span id="home-image-legend">↑ C’est moi ici</span>
+      </div>
+    </section>
+    <section id="biography">
+      <h1>Ma biographie</h1>
+      <div class="section-content">
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Enfance à Nashville</h2>
+            <p>
+              Je suis néé à l'âge de 3 ans dans l’Oregon et j’ai ensuite
+              déménagé dans l’Ohio lorsque j’ai soufflé mes 5 bougies. J’ai
+              ensuite grandi dans cette même région à Nashville, pas très loin
+              de Killbuck avec mes deux parents, mon grand frère, ma petite
+              soeur, et mon chien Enzo.
+            </p>
+          </div>
+          <img src="public/images/Nashville Image.jpg" alt="Nashville" />
+        </div>
+        <div class="subsection">
+          <img src="public/images/Childhood Image.jpg" alt="Childhood" />
+          <div class="text-container">
+            <h2>Mon enfance</h2>
+            <p>
+              Petite, j’adorais faire des courses de cerf-volants et c’est une
+              passion que j’ai toujours gardée et qui m’est d’une grande utilité
+              aujourd’hui.
+            </p>
+            <p>
+              A 8 ans, je finis croissance et atteins ma taille définitive qui
+              est de 2m43.
+            </p>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Ma performance aux JO d’athènes</h2>
+            <p>
+              A 15 ans, j’ai découvert la natation synchronisée australienne et
+              je suis tout de suite tombée très amoureuse de cette discipline ce
+              qui m’a permis d’être médaillée olympique à Athènes en 2004.
+            </p>
+          </div>
+          <img src="public/images/Athenes Image.jpg" alt="Athènes" />
+        </div>
+        <div class="subsection">
+          <img src="public/images/Strasbourg Image.jpg" alt="Strasbourg" />
+          <div class="text-container">
+            <h2>Mon arrivée à Strasbourg</h2>
+            <p>
+              5 ans après, je déménage définitivement en Alsace où je découvre
+              la schtro, le munster, le kougelhof ainsi que les essuies glaces
+              arrières dans les voitures.
+            </p>
+            <p>
+              C’est alors que je fais la connaissance du GOAT, Christophe
+              Collet, qui me trouve un poste à temps plein au centre de langues.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="events" class="dark">
+      <h1>Événements</h1>
+      <div class="section-content">
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Mon Bercy</h2>
+            <p>
+              Après une tournée de 2 mois à travers le monde, je finis dans
+              cette légendaire salle parisienne.
+            </p>
+            <p>
+              Fraichement élu single de diamant, mon morceau Pôle API connaît un
+              succès jamais égalé.
+            </p>
+          </div>
+          <img src="public/images/Bercy Image.jpg" alt="Bercy" />
+        </div>
+        <div class="subsection">
+          <img src="public/images/Ski Image.jpg" alt="Ski" />
+          <div class="text-container">
+            <h2>Weekend ski</h2>
+            <p>
+              Lors d’un hors piste en dehors des pistes, je me retrouve
+              poursuivie par de la neige dégringolant le flanc de montagne.
+              C’est avec ma légendaire force herculéenne que je repousse
+              l’avalanche, et sauve par la même occasion un village complet.
+            </p>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Mon allocution</h2>
+            <p>
+              Alors que la planète entière a les yeux rivés sur son poste de
+              télévision, je prends la parole à 20h pour faire de grandes
+              annonces : c’est ainsi que je prononce cette phrase désormais
+              culte et qui m’a valu un prix Nobel de la paix : “Je suis contre
+              la faim dans le monde”.
+            </p>
+          </div>
+          <img src="public/images/Allocution Image.jpg" alt="Allocution" />
+        </div>
+        <div class="subsection">
+          <img src="public/images/Golf Image.jpg" alt="Gold" />
+          <div class="text-container">
+            <h2>Mon meilleur 18 trous</h2>
+            <p>
+              Après un stage de 3 mois avec Tiger Woods, j’ai réussi à
+              perfectionner mon swing.
+            </p>
+            <p>
+              Deux mois plus tard, je fais l’exploit de réaliser un 18 trous en
+              seulement 4 coups. Du jamais vu auparavant dans le monde du golf.
+            </p>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Ma coupe du monde</h2>
+            <p>
+              Alors que j’avais été privée des terrains pendant 2 mois à cause
+              d’un kebab un peu trop chargé en sauce samouraï, j’amène le Maroc
+              en demi-finale de coupe du monde.
+            </p>
+          </div>
+          <img src="public/images/WorldCup Image.jpg" alt="World Cup" />
+        </div>
+        <div class="subsection">
+          <img src="public/images/Zen Image.jpg" alt="Zen" />
+          <div class="text-container">
+            <h2>Mon passage sur Zen</h2>
+            <p>
+              Un lundi soir banal, je décide de participer à zen et de poser mon
+              meilleur classique. Le public de Twitch est conquis et me demande
+              de faire des Streams régulièrement ce que j’accepte bien
+              évidemment.
+            </p>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="text-container">
+            <h2>Mon arrivée dans le monde du gaming</h2>
+            <p>
+              Quelques temps après mon début sur Twitch, je participe à une
+              partie de AmongUs, un jeu jeune et dynamique. Pour cette partie,
+              je suis membre de l’équipage et je sauve une game qui semblait
+              perdue d’avance.
+            </p>
+          </div>
+          <img src="public/images/AmongUs Image.jpg" alt="Among Us" />
+        </div>
+      </div>
+    </section>
+    <section id="contact"></section>
+  </body>
 </html>

@@ -1,0 +1,42 @@
+#biography {
+  background-color: var(--background-ui);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+}
+
+#events {
+  background-color: var(--background-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 100px;
+}
+
+.subsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.section-content img {
+  width: 354px;
+  height: 199px;
+}
